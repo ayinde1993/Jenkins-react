@@ -3,7 +3,7 @@ pipeline {
     tools {
         nodejs 'nodejs'
     }
-}
+
 
 stages {
     stage('Build') {
@@ -26,4 +26,5 @@ stages {
         }
         
     }
+}
 }
